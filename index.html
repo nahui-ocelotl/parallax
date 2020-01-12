@@ -19,9 +19,21 @@
 				 });
 			 });
 		</script>
+		<script>
+		$(document).ready(function(){
+  			$(document).keydown(function(){
+    			var x = event.key;
+    			document.getElementById("tecla").innerHTML = x;
+  			});
+  			$(document).keyup(function(){
+    			document.getElementById("tecla").innerHTML = "Amitla";
+  			});
+		});
+		</script>
 	 </head>
 	 <body>
-		
+		<p class="indicador">Tecla: <span id="tecla"></span></p>
+		 
 		<div class="CanvasDiv">
                 <div id="RendererMain"></div>
 		</div>
