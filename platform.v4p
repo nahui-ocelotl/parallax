@@ -27,7 +27,7 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1">
+  <PIN pinname="Property Name" visible="1" values="|width|">
   </PIN>
   <PIN pinname="Property Value" visible="1">
   </PIN>
@@ -51,7 +51,7 @@
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="Property Name" visible="1">
+  <PIN pinname="Property Name" visible="1" values="|left|">
   </PIN>
   <PIN pinname="Property Value" visible="1">
   </PIN>
@@ -76,30 +76,6 @@
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
   <PIN pinname="Input String" visible="1" values="|height|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="8" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3630" top="5955" width="720" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|width|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="9" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3915" top="6510" width="720" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -142,36 +118,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="13" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3000" top="1170" width="720" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|left|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="14" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3285" top="1710" width="720" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1" values="|400px|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="15" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
   <BOUNDS type="Box" left="3285" top="3570" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|190px|">
+  <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -197,7 +149,7 @@
   </PIN>
   </NODE>
   <NODE id="17" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5940" top="3150" width="0" height="0">
+  <BOUNDS type="Box" left="7185" top="3045" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -206,18 +158,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="18" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5850" top="1575" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|400|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="19" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5925" top="2415" width="100" height="100">
+  <BOUNDS type="Node" left="7170" top="2310" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -226,28 +168,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="20" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5715" top="5775" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|200|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="21" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6285" top="6810" width="100" height="100">
+  <BOUNDS type="Node" left="4140" top="5730" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="SubType" visible="1" values="|Real (MinFloat .. MaxFloat)|">
+  <PIN pinname="SubType" visible="1" values="|Integer (MinInt .. MaxInt)|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="22" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6570" top="7530" width="100" height="100">
+  <BOUNDS type="Node" left="4425" top="6450" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="||">
   </PIN>
@@ -261,7 +193,7 @@
   </PIN>
   </NODE>
   <NODE id="23" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7155" top="3120" width="0" height="0">
+  <BOUNDS type="Box" left="8400" top="3015" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -271,7 +203,7 @@
   </PIN>
   </NODE>
   <NODE id="24" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6990" top="2385" width="100" height="100">
+  <BOUNDS type="Node" left="8235" top="2280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -280,18 +212,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="25" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="7260" top="1515" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|200|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="26" nodename="AND (Boolean)" systemname="AND (Boolean)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6450" top="3960" width="100" height="100">
+  <BOUNDS type="Node" left="8475" top="3810" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -305,7 +227,7 @@
   </PIN>
   </NODE>
   <NODE id="27" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="6285" top="4665" width="0" height="0">
+  <BOUNDS type="Box" left="8070" top="4395" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -315,13 +237,13 @@
   </PIN>
   </NODE>
   <NODE id="28" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6780" top="5310" width="100" height="100">
+  <BOUNDS type="Node" left="11115" top="4980" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|90|">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -329,7 +251,7 @@
   </PIN>
   </NODE>
   <NODE id="29" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6765" top="6180" width="100" height="100">
+  <BOUNDS type="Node" left="12390" top="5685" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -341,13 +263,13 @@
   </PIN>
   </NODE>
   <NODE id="30" nodename="Switch (Value Input)" systemname="Switch (Value Input)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7830" top="5250" width="100" height="100">
+  <BOUNDS type="Node" left="12165" top="4920" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Switch" visible="1">
   </PIN>
-  <PIN pinname="Input 1" visible="1" values="|200|">
+  <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|400|">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -355,7 +277,7 @@
   </PIN>
   </NODE>
   <NODE id="31" nodename="FrameDelay (Animation)" systemname="FrameDelay (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8190" top="5955" width="100" height="100">
+  <BOUNDS type="Node" left="13785" top="5670" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -367,7 +289,7 @@
   </PIN>
   </NODE>
   <NODE id="32" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8940" top="1785" width="100" height="100">
+  <BOUNDS type="Node" left="9135" top="1545" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -379,7 +301,7 @@
   </PIN>
   </NODE>
   <NODE id="33" nodename="LT (Value)" systemname="LT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8685" top="2355" width="100" height="100">
+  <BOUNDS type="Node" left="9375" top="2250" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -389,13 +311,157 @@
   </PIN>
   </NODE>
   <NODE id="34" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8520" top="3090" width="0" height="0">
+  <BOUNDS type="Box" left="9675" top="3000" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="35" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5340" top="285" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|400|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|px|">
+  </PIN>
+  </NODE>
+  <NODE id="36" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3480" top="1170" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="37" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3090" top="1725" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|px|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="38" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5025" top="1410" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="39" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4635" top="1965" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|px|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="41" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="8295" top="405" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|190|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|py|">
+  </PIN>
+  </NODE>
+  <NODE id="42" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4860" top="5235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="44" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12780" top="3075" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|2|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="46" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11850" top="3480" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|100|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="47" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="11805" top="6540" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|min|">
+  </PIN>
+  </NODE>
+  <NODE id="48" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="13665" top="6420" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|max|">
+  </PIN>
+  </NODE>
+  <NODE id="49" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="4830" top="4530" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|200|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|width|">
+  </PIN>
+  </NODE>
+  <NODE id="50" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="1140" top="330" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|hx|">
   </PIN>
   </NODE>
   <LINK srcnodeid="6" srcpinname="Style Out" dstnodeid="2" dstpinname="Style In">
@@ -406,19 +472,11 @@
   </LINK>
   <LINK srcnodeid="2" srcpinname="Style Out" dstnodeid="3" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="8" srcpinname="Output String" dstnodeid="3" dstpinname="Property Name">
-  </LINK>
-  <LINK srcnodeid="9" srcpinname="Output String" dstnodeid="3" dstpinname="Property Value">
-  </LINK>
   <LINK srcnodeid="3" srcpinname="Style Out" dstnodeid="4" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Output String" dstnodeid="4" dstpinname="Property Name">
   </LINK>
   <LINK srcnodeid="1" srcpinname="Output" dstnodeid="5" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="13" srcpinname="Output String" dstnodeid="5" dstpinname="Property Name">
-  </LINK>
-  <LINK srcnodeid="14" srcpinname="Output String" dstnodeid="5" dstpinname="Property Value">
   </LINK>
   <LINK srcnodeid="5" srcpinname="Style Out" dstnodeid="6" dstpinname="Style In">
   </LINK>
@@ -426,21 +484,13 @@
   </LINK>
   <LINK srcnodeid="15" srcpinname="Output String" dstnodeid="6" dstpinname="Property Value">
   </LINK>
-  <LINK srcnodeid="22" srcpinname="Output" dstnodeid="9" dstpinname="Input String">
-  </LINK>
   <LINK srcnodeid="4" srcpinname="Style Out" dstnodeid="16" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="17" dstpinname="Y Input Value">
   </LINK>
-  <LINK srcnodeid="18" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Input">
-  </LINK>
   <LINK srcnodeid="21" srcpinname="Output" dstnodeid="22" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="24" srcpinname="Output" dstnodeid="23" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="25" srcpinname="Y Output Value" dstnodeid="24" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="26" dstpinname="Input 1">
   </LINK>
@@ -458,12 +508,48 @@
   </LINK>
   <LINK srcnodeid="30" srcpinname="Output" dstnodeid="31" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="18" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="25" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Input 2">
-  </LINK>
   <LINK srcnodeid="32" srcpinname="Output" dstnodeid="33" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="33" srcpinname="Output" dstnodeid="34" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="36" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="36" srcpinname="Output" dstnodeid="37" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="37" srcpinname="Output" dstnodeid="5" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="38" srcpinname="Output" dstnodeid="39" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="38" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="39" srcpinname="Output" dstnodeid="15" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="32" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="24" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="42" srcpinname="Output" dstnodeid="21" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="22" srcpinname="Output" dstnodeid="3" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="30" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="44" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="44" srcpinname="Output" dstnodeid="30" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="46" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="46" srcpinname="Output" dstnodeid="28" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="29" srcpinname="Output 1" dstnodeid="47" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="31" srcpinname="Output 1" dstnodeid="48" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="42" dstpinname="Input 1">
   </LINK>
   </PATCH>
