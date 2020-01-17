@@ -361,7 +361,7 @@
   </PIN>
   </NODE>
   <NODE id="41" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8295" top="405" width="0" height="0">
+  <BOUNDS type="Box" left="8085" top="300" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|190|">
   </PIN>
@@ -436,16 +436,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="|width|">
   </PIN>
   </NODE>
-  <NODE id="50" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="6900" top="330" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|hx|">
-  </PIN>
-  </NODE>
   <NODE id="54" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="3465" top="8460" width="100" height="100">
   </BOUNDS>
@@ -468,6 +458,14 @@
   <BOUNDS type="Node" left="7770" top="1320" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|hy|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="57" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7065" top="1305" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|hx|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -558,12 +556,12 @@
   </LINK>
   <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="42" dstpinname="Input 1">
   </LINK>
-  <LINK srcnodeid="50" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="50" srcpinname="Y Output Value" dstnodeid="33" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="4" srcpinname="Style Out" dstnodeid="54" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="56" srcpinname="Output" dstnodeid="24" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="57" srcpinname="Output" dstnodeid="19" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="57" srcpinname="Output" dstnodeid="33" dstpinname="Input 1">
   </LINK>
   </PATCH>
