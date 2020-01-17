@@ -130,24 +130,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="16" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4020" top="8415" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Style In" visible="1">
-  </PIN>
-  <PIN pinname="Tag Name" visible="1">
-  </PIN>
-  <PIN pinname="Parent" visible="1">
-  </PIN>
-  <PIN pinname="Text" visible="1" values="||">
-  </PIN>
-  <PIN pinname="Enabled" visible="1">
-  </PIN>
-  <PIN pinname="Attribute Names" visible="0" values="||">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ platform|">
-  </PIN>
-  </NODE>
   <NODE id="17" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="7185" top="3045" width="0" height="0">
   </BOUNDS>
@@ -445,7 +427,7 @@
   </PIN>
   </NODE>
   <NODE id="49" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="4830" top="4530" width="0" height="0">
+  <BOUNDS type="Box" left="10020" top="315" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|200|">
   </PIN>
@@ -462,6 +444,34 @@
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="|hx|">
+  </PIN>
+  </NODE>
+  <NODE id="52" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="2880" top="315" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|hy|">
+  </PIN>
+  </NODE>
+  <NODE id="54" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3465" top="8460" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Tag Name" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <LINK srcnodeid="6" srcpinname="Style Out" dstnodeid="2" dstpinname="Style In">
@@ -483,8 +493,6 @@
   <LINK srcnodeid="12" srcpinname="Output String" dstnodeid="6" dstpinname="Property Name">
   </LINK>
   <LINK srcnodeid="15" srcpinname="Output String" dstnodeid="6" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="4" srcpinname="Style Out" dstnodeid="16" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="17" dstpinname="Y Input Value">
   </LINK>
@@ -551,5 +559,13 @@
   <LINK srcnodeid="31" srcpinname="Output 1" dstnodeid="48" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="42" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="52" srcpinname="Y Output Value" dstnodeid="24" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="50" srcpinname="Y Output Value" dstnodeid="33" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="4" srcpinname="Style Out" dstnodeid="54" dstpinname="Style In">
   </LINK>
   </PATCH>
