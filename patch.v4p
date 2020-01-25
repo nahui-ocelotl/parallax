@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="30285">
+  <BOUNDS type="Window" width="28545" height="30285">
   </BOUNDS>
   <NODE id="470" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18420" top="8760" width="100" height="100">
@@ -1240,20 +1240,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="657" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="10410" top="2400" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="px" visible="1">
-  </PIN>
-  <PIN pinname="py" visible="1">
-  </PIN>
-  <PIN pinname="width" visible="1">
-  </PIN>
-  <PIN pinname="hx" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="658" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="4785" top="4350" width="100" height="100">
   </BOUNDS>
@@ -1270,6 +1256,18 @@
   <PIN pinname="Input" visible="1">
   </PIN>
   <PIN pinname="Name" visible="1" values="|hy|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="662" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="13005" top="3690" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="px" visible="1" values="|600|">
+  </PIN>
+  <PIN pinname="py" visible="1" values="|300|">
+  </PIN>
+  <PIN pinname="width" visible="1" values="|150|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
