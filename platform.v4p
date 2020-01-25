@@ -2,14 +2,6 @@
   <PATCH>
   <BOUNDS type="Window" width="19995" height="10140">
   </BOUNDS>
-  <NODE id="1" nodename="R (Node)" systemname="R (Node)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2340" top="1140" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Name" visible="1" values="|fixed|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="|_ fixed|">
-  </PIN>
-  </NODE>
   <NODE id="2" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="2730" top="5985" width="100" height="100">
   </BOUNDS>
@@ -490,6 +482,42 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="60" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1005" top="1755" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="61" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1290" top="450" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|position|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="62" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1575" top="1110" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|fixed|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="6" srcpinname="Style Out" dstnodeid="2" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="11" srcpinname="Output String" dstnodeid="2" dstpinname="Property Name">
@@ -501,8 +529,6 @@
   <LINK srcnodeid="3" srcpinname="Style Out" dstnodeid="4" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Output String" dstnodeid="4" dstpinname="Property Name">
-  </LINK>
-  <LINK srcnodeid="1" srcpinname="Output" dstnodeid="5" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="5" srcpinname="Style Out" dstnodeid="6" dstpinname="Style In">
   </LINK>
@@ -587,5 +613,11 @@
   <LINK srcnodeid="31" srcpinname="Output 1" dstnodeid="59" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="59" srcpinname="Output" dstnodeid="48" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="61" srcpinname="Output String" dstnodeid="60" dstpinname="Property Name">
+  </LINK>
+  <LINK srcnodeid="62" srcpinname="Output String" dstnodeid="60" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="60" srcpinname="Style Out" dstnodeid="5" dstpinname="Style In">
   </LINK>
   </PATCH>
