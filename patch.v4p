@@ -865,25 +865,13 @@
   </PIN>
   </NODE>
   <NODE id="662" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="10935" top="3375" width="100" height="100">
+  <BOUNDS type="Node" left="7515" top="4590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="px" visible="1" values="|600|">
   </PIN>
   <PIN pinname="py" visible="1" values="|150|">
   </PIN>
   <PIN pinname="width" visible="1" values="|150|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="663" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="13050" top="3345" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="px" visible="1" values="|800|">
-  </PIN>
-  <PIN pinname="py" visible="1" values="|300|">
-  </PIN>
-  <PIN pinname="width" visible="1" values="|100|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -896,30 +884,6 @@
   <PIN pinname="BinSize" visible="1">
   </PIN>
   <PIN pinname="Index" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="666" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11235" top="4830" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="667" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13440" top="4755" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1">
-  </PIN>
-  <PIN pinname="Input 2" visible="1">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1064,16 +1028,8 @@
   </LINK>
   <LINK srcnodeid="665" srcpinname="Output" dstnodeid="659" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="662" srcpinname="min" dstnodeid="666" dstpinname="Input 1">
+  <LINK srcnodeid="662" srcpinname="min" dstnodeid="533" dstpinname="Destination Minimum">
   </LINK>
-  <LINK srcnodeid="663" srcpinname="min" dstnodeid="666" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="666" srcpinname="Output" dstnodeid="533" dstpinname="Destination Minimum">
-  </LINK>
-  <LINK srcnodeid="663" srcpinname="max" dstnodeid="667" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="667" srcpinname="Output" dstnodeid="533" dstpinname="Destination Maximum">
-  </LINK>
-  <LINK srcnodeid="662" srcpinname="max" dstnodeid="667" dstpinname="Input 1">
+  <LINK srcnodeid="662" srcpinname="max" dstnodeid="533" dstpinname="Destination Maximum">
   </LINK>
   </PATCH>
