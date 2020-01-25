@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="9240" height="30285">
+  <BOUNDS type="Window" width="8745" height="30285">
   </BOUNDS>
   <NODE id="470" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="22140" top="2220" width="100" height="100">
@@ -347,7 +347,7 @@
   </PIN>
   </NODE>
   <NODE id="522" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4950" top="8655" width="100" height="100">
+  <BOUNDS type="Node" left="3960" top="8280" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1">
   </PIN>
@@ -361,7 +361,7 @@
   </PIN>
   </NODE>
   <NODE id="524" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5925" top="7935" width="100" height="100">
+  <BOUNDS type="Node" left="4260" top="7500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -831,7 +831,7 @@
   </PIN>
   </NODE>
   <NODE id="634" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5655" top="9435" width="100" height="100">
+  <BOUNDS type="Node" left="5445" top="9045" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -972,15 +972,11 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="681" nodename="hero.v4p" systemname="hero" filename="hero.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="0" top="0" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="684" nodename="hero.v4p" systemname="hero" filename="hero.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="8820" top="10290" width="100" height="100">
+  <BOUNDS type="Node" left="4485" top="12360" width="100" height="100">
   </BOUNDS>
+  <PIN pinname="bottom" visible="1">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
@@ -1147,5 +1143,7 @@
   <LINK srcnodeid="679" srcpinname="Output" dstnodeid="670" dstpinname="Switch">
   </LINK>
   <LINK srcnodeid="679" srcpinname="Output" dstnodeid="671" dstpinname="Switch">
+  </LINK>
+  <LINK srcnodeid="665" srcpinname="Output" dstnodeid="684" dstpinname="bottom">
   </LINK>
   </PATCH>
