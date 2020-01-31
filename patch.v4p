@@ -222,18 +222,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="724" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6555" top="6945" width="0" height="0">
-  </BOUNDS>
-  <PIN pinname="SliceOffset" visible="1">
-  </PIN>
-  <PIN pinname="Input String" visible="1">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="726" nodename="ApplyStyle (HTML)" systemname="ApplyStyle (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="2745" top="6570" width="100" height="100">
   </BOUNDS>
@@ -493,7 +481,7 @@
   </PIN>
   </NODE>
   <NODE id="753" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="11550" top="7860" width="990" height="0">
+  <BOUNDS type="Box" left="9960" top="8505" width="990" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -562,10 +550,46 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="760" nodename="R (String)" systemname="R (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9165" top="7020" width="100" height="100">
+  <NODE id="761" nodename="R (String)" systemname="R (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3165" top="8175" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Name" visible="1">
+  <PIN pinname="Name" visible="1" values="|tecla|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="762" nodename="R (String)" systemname="R (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6405" top="8325" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|tecla|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="763" nodename="R (String)" systemname="R (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8760" top="8580" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|tecla|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="764" nodename="R (String)" systemname="R (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12975" top="8430" width="270" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|tecla|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="765" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="8700" top="6930" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -602,8 +626,6 @@
   </LINK>
   <LINK srcnodeid="721" srcpinname="Layers Out" dstnodeid="723" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="723" srcpinname="Text" dstnodeid="724" dstpinname="Input String">
-  </LINK>
   <LINK srcnodeid="721" srcpinname="Layers Out" dstnodeid="726" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="727" srcpinname="Style Out" dstnodeid="726" dstpinname="Style">
@@ -611,8 +633,6 @@
   <LINK srcnodeid="728" srcpinname="Output String" dstnodeid="727" dstpinname="Property Name">
   </LINK>
   <LINK srcnodeid="729" srcpinname="Output String" dstnodeid="727" dstpinname="Property Value">
-  </LINK>
-  <LINK srcnodeid="724" srcpinname="Output String" dstnodeid="731" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="732" srcpinname="Output String" dstnodeid="731" dstpinname="Input 2">
   </LINK>
@@ -654,12 +674,6 @@
   </LINK>
   <LINK srcnodeid="753" srcpinname="Output String" dstnodeid="752" dstpinname="Input 2">
   </LINK>
-  <LINK srcnodeid="724" srcpinname="Output String" dstnodeid="740" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="724" srcpinname="Output String" dstnodeid="752" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="724" srcpinname="Output String" dstnodeid="743" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="754" srcpinname="Output String" dstnodeid="740" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="752" srcpinname="Output" dstnodeid="750" dstpinname="Switch">
@@ -675,5 +689,15 @@
   <LINK srcnodeid="758" srcpinname="Output String" dstnodeid="757" dstpinname="Name">
   </LINK>
   <LINK srcnodeid="723" srcpinname="Text" dstnodeid="757" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="761" srcpinname="Output" dstnodeid="731" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="762" srcpinname="Output" dstnodeid="740" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="763" srcpinname="Output" dstnodeid="752" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="764" srcpinname="Output" dstnodeid="743" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="723" srcpinname="Text" dstnodeid="765" dstpinname="Input String">
   </LINK>
   </PATCH>
