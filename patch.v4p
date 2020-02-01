@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19995" height="30285">
+  <BOUNDS type="Window" width="28545" height="30285">
   </BOUNDS>
   <NODE id="688" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18180" top="1125" width="100" height="100">
@@ -293,13 +293,13 @@
   </PIN>
   </NODE>
   <NODE id="733" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13590" top="12210" width="100" height="100">
+  <BOUNDS type="Node" left="14490" top="12495" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
-  <PIN pinname="Source Minimum" visible="1">
+  <PIN pinname="Source Minimum" visible="1" values="|0.01|">
   </PIN>
-  <PIN pinname="Source Maximum" visible="1">
+  <PIN pinname="Source Maximum" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Destination Minimum" visible="1">
   </PIN>
@@ -438,16 +438,6 @@
   <BOUNDS type="Box" left="15090" top="9300" width="450" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|0.1|">
-  </PIN>
-  <PIN pinname="Rows" visible="0" values="|1|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="749" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="14610" top="11370" width="450" height="0">
-  </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0.75|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -595,9 +585,9 @@
   </PIN>
   </NODE>
   <NODE id="767" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="12255" top="16170" width="100" height="100">
+  <BOUNDS type="Node" left="11670" top="10770" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="px" visible="1">
+  <PIN pinname="px" visible="1" values="|-0.5|">
   </PIN>
   <PIN pinname="py" visible="1" values="|0.25|">
   </PIN>
@@ -617,7 +607,7 @@
   </PIN>
   </NODE>
   <NODE id="769" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14475" top="13305" width="100" height="100">
+  <BOUNDS type="Node" left="15375" top="13590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -698,8 +688,6 @@
   </LINK>
   <LINK srcnodeid="748" srcpinname="Y Output Value" dstnodeid="747" dstpinname="FilterTime">
   </LINK>
-  <LINK srcnodeid="749" srcpinname="Y Output Value" dstnodeid="733" dstpinname="Destination Maximum">
-  </LINK>
   <LINK srcnodeid="720" srcpinname="Y Output Value" dstnodeid="750" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="750" srcpinname="Output" dstnodeid="718" dstpinname="ScaleY">
@@ -709,8 +697,6 @@
   <LINK srcnodeid="754" srcpinname="Output String" dstnodeid="740" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="752" srcpinname="Output" dstnodeid="750" dstpinname="Switch">
-  </LINK>
-  <LINK srcnodeid="748" srcpinname="Y Output Value" dstnodeid="733" dstpinname="Destination Minimum">
   </LINK>
   <LINK srcnodeid="755" srcpinname="Output" dstnodeid="718" dstpinname="CenterY">
   </LINK>
@@ -737,5 +723,9 @@
   <LINK srcnodeid="735" srcpinname="Position Out" dstnodeid="768" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="733" srcpinname="Output" dstnodeid="769" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="767" srcpinname="max" dstnodeid="733" dstpinname="Destination Maximum">
+  </LINK>
+  <LINK srcnodeid="767" srcpinname="min" dstnodeid="733" dstpinname="Destination Minimum">
   </LINK>
   </PATCH>
