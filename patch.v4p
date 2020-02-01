@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="30285">
+  <BOUNDS type="Window" width="19995" height="30285">
   </BOUNDS>
   <NODE id="688" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18180" top="1125" width="100" height="100">
@@ -599,9 +599,29 @@
   </BOUNDS>
   <PIN pinname="px" visible="1">
   </PIN>
-  <PIN pinname="py" visible="1">
+  <PIN pinname="py" visible="1" values="|0.25|">
   </PIN>
-  <PIN pinname="width" visible="1">
+  <PIN pinname="width" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="768" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4845" top="12090" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Name" visible="1" values="|hx|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="769" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14475" top="13305" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Name" visible="1" values="|hy|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -711,5 +731,11 @@
   <LINK srcnodeid="764" srcpinname="Output" dstnodeid="743" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="723" srcpinname="Text" dstnodeid="765" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="767" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="735" srcpinname="Position Out" dstnodeid="768" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="733" srcpinname="Output" dstnodeid="769" dstpinname="Input">
   </LINK>
   </PATCH>

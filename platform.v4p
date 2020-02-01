@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19005" height="11040">
+  <BOUNDS type="Window" width="18585" height="11040">
   </BOUNDS>
   <NODE id="17" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="7185" top="3045" width="0" height="0">
@@ -151,7 +151,7 @@
   </PIN>
   </NODE>
   <NODE id="35" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5340" top="285" width="0" height="0">
+  <BOUNDS type="Box" left="4605" top="390" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|400|">
   </PIN>
@@ -161,7 +161,7 @@
   </PIN>
   </NODE>
   <NODE id="41" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8085" top="300" width="0" height="0">
+  <BOUNDS type="Box" left="6600" top="390" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|190|">
   </PIN>
@@ -217,7 +217,7 @@
   <NODE id="49" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="10020" top="315" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|200|">
+  <PIN pinname="Y Input Value" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -282,6 +282,38 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="67" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4890" top="5865" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="68" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="6675" top="4770" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.05|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="17" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="24" srcpinname="Output" dstnodeid="23" dstpinname="Y Input Value">
@@ -339,5 +371,15 @@
   <LINK srcnodeid="59" srcpinname="Output" dstnodeid="48" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="66" srcpinname="Layer" dstnodeid="63" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="67" srcpinname="Transform Out" dstnodeid="66" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="67" dstpinname="TranslateX">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Y Output Value" dstnodeid="67" dstpinname="TranslateY">
+  </LINK>
+  <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="67" dstpinname="ScaleX">
+  </LINK>
+  <LINK srcnodeid="68" srcpinname="Y Output Value" dstnodeid="67" dstpinname="ScaleY">
   </LINK>
   </PATCH>
