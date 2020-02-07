@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="11040">
+  <BOUNDS type="Window" width="18705" height="11040">
   </BOUNDS>
   <NODE id="35" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="3060" top="570" width="0" height="0">
@@ -143,7 +143,7 @@
   </PIN>
   </NODE>
   <NODE id="83" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8430" top="3645" width="270" height="100">
+  <BOUNDS type="Node" left="8415" top="3630" width="270" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -304,6 +304,24 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="123" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="3090" top="4605" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|Transform|">
+  </PIN>
+  </NODE>
+  <NODE id="125" nodename="GT (Value)" systemname="GT (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7545" top="3315" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="66" srcpinname="Layer" dstnodeid="63" dstpinname="Input Node">
   </LINK>
   <LINK srcnodeid="67" srcpinname="Transform Out" dstnodeid="66" dstpinname="Transform">
@@ -317,8 +335,6 @@
   <LINK srcnodeid="68" srcpinname="Y Output Value" dstnodeid="67" dstpinname="ScaleY">
   </LINK>
   <LINK srcnodeid="69" srcpinname="Output" dstnodeid="83" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="83" srcpinname="Output" dstnodeid="73" dstpinname="Y Input Value">
   </LINK>
   <LINK srcnodeid="69" srcpinname="Output" dstnodeid="98" dstpinname="Input 1">
   </LINK>
@@ -371,5 +387,13 @@
   <LINK srcnodeid="49" srcpinname="Y Output Value" dstnodeid="122" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="122" srcpinname="Output" dstnodeid="98" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="123" srcpinname="Output Node" dstnodeid="67" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="125" srcpinname="Output" dstnodeid="73" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="69" srcpinname="Output" dstnodeid="125" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="125" dstpinname="Input 1">
   </LINK>
   </PATCH>
