@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="28545" height="30285">
+  <BOUNDS type="Window" width="20235" height="30285">
   </BOUNDS>
   <NODE id="688" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18180" top="1125" width="100" height="100">
@@ -49,13 +49,13 @@
   </PIN>
   </NODE>
   <NODE id="694" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6900" top="15720" width="100" height="100">
+  <BOUNDS type="Node" left="7215" top="19110" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="696" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7620" top="16695" width="100" height="100">
+  <BOUNDS type="Node" left="7935" top="20085" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -67,7 +67,7 @@
   </PIN>
   </NODE>
   <NODE id="697" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8460" top="16065" width="270" height="0">
+  <BOUNDS type="Box" left="8775" top="19455" width="270" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|1|">
   </PIN>
@@ -101,7 +101,7 @@
   </PIN>
   </NODE>
   <NODE id="714" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6360" top="16710" width="100" height="100">
+  <BOUNDS type="Node" left="6675" top="20100" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -113,7 +113,7 @@
   </PIN>
   </NODE>
   <NODE id="715" nodename="Renderer (Canvas VVVVjs)" systemname="Renderer (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5535" top="18270" width="100" height="100">
+  <BOUNDS type="Node" left="5850" top="21660" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -153,7 +153,9 @@
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer Count" visible="0" values="|3|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -275,7 +277,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Case Sensitive" visible="1">
+  <PIN pinname="Case Sensitive" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -285,7 +287,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|ArrowLeft|">
+  <PIN pinname="Input String" visible="1" values="|a|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -371,7 +373,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Case Sensitive" visible="1">
+  <PIN pinname="Case Sensitive" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -383,7 +385,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Case Sensitive" visible="1">
+  <PIN pinname="Case Sensitive" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -393,7 +395,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|ArrowUp|">
+  <PIN pinname="Input String" visible="1" values="|w|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -465,7 +467,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
-  <PIN pinname="Case Sensitive" visible="1">
+  <PIN pinname="Case Sensitive" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -475,7 +477,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|ArrowDown|">
+  <PIN pinname="Input String" visible="1" values="|s|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -487,7 +489,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|ArrowRight|">
+  <PIN pinname="Input String" visible="1" values="|d|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -640,6 +642,48 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="775" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6075" top="16695" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Clipping Layer" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1" values="|w,a,s,d|">
+  </PIN>
+  <PIN pinname="Font" visible="1">
+  </PIN>
+  <PIN pinname="Align" visible="1" values="|start|">
+  </PIN>
+  <PIN pinname="Baseline" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="778" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6750" top="15675" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1" values="|-0.95|">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1" values="|0.9000000000000001|">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="689" srcpinname="Output String" dstnodeid="688" dstpinname="Selector">
   </LINK>
   <LINK srcnodeid="688" srcpinname="Layers Out" dstnodeid="690" dstpinname="Element">
@@ -755,5 +799,9 @@
   <LINK srcnodeid="767" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="774" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="775" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="778" srcpinname="Transform Out" dstnodeid="775" dstpinname="Transform">
   </LINK>
   </PATCH>
