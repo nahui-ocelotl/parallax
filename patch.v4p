@@ -586,18 +586,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="767" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="11670" top="10770" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="px" visible="1" values="|-0.5|">
-  </PIN>
-  <PIN pinname="py" visible="1" values="|0.25|">
-  </PIN>
-  <PIN pinname="width" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="768" nodename="S (Value)" systemname="S (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="4845" top="12090" width="100" height="100">
   </BOUNDS>
@@ -619,7 +607,7 @@
   </PIN>
   </NODE>
   <NODE id="771" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="16485" top="10875" width="100" height="100">
+  <BOUNDS type="Node" left="16140" top="10530" width="100" height="100">
   </BOUNDS>
   <PIN pinname="px" visible="1" values="|0.025|">
   </PIN>
@@ -643,7 +631,7 @@
   </PIN>
   </NODE>
   <NODE id="775" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6075" top="16695" width="100" height="100">
+  <BOUNDS type="Node" left="7605" top="16425" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Render State" visible="1">
   </PIN>
@@ -680,6 +668,90 @@
   <PIN pinname="CenterX" visible="1">
   </PIN>
   <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="781" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8055" top="17430" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Layer 1" visible="1">
+  </PIN>
+  <PIN pinname="Layer 2" visible="1">
+  </PIN>
+  <PIN pinname="Layer Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="782" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9090" top="16395" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Render State" visible="1">
+  </PIN>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Clipping Layer" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Font" visible="1">
+  </PIN>
+  <PIN pinname="Align" visible="1" values="|start|">
+  </PIN>
+  <PIN pinname="Baseline" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="783" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="9150" top="15540" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1" values="|-0.7499999999999998|">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1" values="|0.9000000000000001|">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="784" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11730" top="14835" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|hx|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="785" nodename="AsString (Value)" systemname="AsString (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11295" top="15735" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="SubType" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="786" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="17700" top="10515" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="px" visible="1" values="|0.6150000000000003|">
+  </PIN>
+  <PIN pinname="py" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="width" visible="1" values="|0.5|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -790,18 +862,28 @@
   </LINK>
   <LINK srcnodeid="733" srcpinname="Output" dstnodeid="769" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="767" srcpinname="max" dstnodeid="733" dstpinname="Destination Maximum">
-  </LINK>
-  <LINK srcnodeid="767" srcpinname="min" dstnodeid="733" dstpinname="Destination Minimum">
-  </LINK>
   <LINK srcnodeid="771" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="767" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 1">
   </LINK>
   <LINK srcnodeid="774" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 2">
   </LINK>
-  <LINK srcnodeid="775" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 3">
-  </LINK>
   <LINK srcnodeid="778" srcpinname="Transform Out" dstnodeid="775" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="775" srcpinname="Layer" dstnodeid="781" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="781" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="782" srcpinname="Layer" dstnodeid="781" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="783" srcpinname="Transform Out" dstnodeid="782" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="784" srcpinname="Output" dstnodeid="785" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="785" srcpinname="Output" dstnodeid="782" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="786" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 1">
+  </LINK>
+  <LINK srcnodeid="771" srcpinname="min" dstnodeid="733" dstpinname="Destination Minimum">
+  </LINK>
+  <LINK srcnodeid="771" srcpinname="max" dstnodeid="733" dstpinname="Destination Maximum">
   </LINK>
   </PATCH>
