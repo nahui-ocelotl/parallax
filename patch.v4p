@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20055" height="30285">
+  <BOUNDS type="Window" width="19560" height="30285">
   </BOUNDS>
   <NODE id="688" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18180" top="1125" width="100" height="100">
@@ -819,7 +819,7 @@
   </PIN>
   </NODE>
   <NODE id="800" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2850" top="17625" width="100" height="100">
+  <BOUNDS type="Node" left="2460" top="17580" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Name" visible="1" values="|hx|">
   </PIN>
@@ -837,7 +837,7 @@
   </PIN>
   <PIN pinname="Destination Minimum" visible="1">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|0.5|">
+  <PIN pinname="Destination Maximum" visible="1" values="|-0.75|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -855,7 +855,7 @@
   </PIN>
   <PIN pinname="Destination Minimum" visible="1">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|0.25|">
+  <PIN pinname="Destination Maximum" visible="1" values="|-0.25|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -873,7 +873,7 @@
   </PIN>
   <PIN pinname="Destination Minimum" visible="1">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1" values="|0.1|">
+  <PIN pinname="Destination Maximum" visible="1" values="|-0.1|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
