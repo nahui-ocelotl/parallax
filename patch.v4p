@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="30285">
+  <BOUNDS type="Window" width="20055" height="30285">
   </BOUNDS>
   <NODE id="688" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18180" top="1125" width="100" height="100">
@@ -49,13 +49,13 @@
   </PIN>
   </NODE>
   <NODE id="694" nodename="ScreenInfo (Windows)" systemname="ScreenInfo (Windows)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7215" top="19110" width="100" height="100">
+  <BOUNDS type="Node" left="8745" top="22470" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="696" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7935" top="20085" width="100" height="100">
+  <BOUNDS type="Node" left="9465" top="23445" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -67,7 +67,7 @@
   </PIN>
   </NODE>
   <NODE id="697" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="8775" top="19455" width="270" height="0">
+  <BOUNDS type="Box" left="10305" top="22815" width="270" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1" values="|1|">
   </PIN>
@@ -101,7 +101,7 @@
   </PIN>
   </NODE>
   <NODE id="714" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6675" top="20100" width="100" height="100">
+  <BOUNDS type="Node" left="8205" top="23460" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -113,7 +113,7 @@
   </PIN>
   </NODE>
   <NODE id="715" nodename="Renderer (Canvas VVVVjs)" systemname="Renderer (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5850" top="21660" width="100" height="100">
+  <BOUNDS type="Node" left="7380" top="25020" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -147,7 +147,7 @@
   </PIN>
   </NODE>
   <NODE id="717" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4935" top="17445" width="100" height="100">
+  <BOUNDS type="Node" left="4950" top="18375" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layer 1" visible="1">
   </PIN>
@@ -303,9 +303,9 @@
   </PIN>
   <PIN pinname="Source Maximum" visible="1" values="|1|">
   </PIN>
-  <PIN pinname="Destination Minimum" visible="1">
+  <PIN pinname="Destination Minimum" visible="1" values="|0.1|">
   </PIN>
-  <PIN pinname="Destination Maximum" visible="1">
+  <PIN pinname="Destination Maximum" visible="1" values="|1|">
   </PIN>
   <PIN pinname="Mapping" visible="1">
   </PIN>
@@ -606,30 +606,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="771" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="16140" top="10530" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="px" visible="1" values="|0.025|">
-  </PIN>
-  <PIN pinname="py" visible="1" values="|0.25|">
-  </PIN>
-  <PIN pinname="width" visible="1" values="|0.5|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
-  <NODE id="774" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17130" top="12705" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Layer 1" visible="1">
-  </PIN>
-  <PIN pinname="Layer 2" visible="1">
-  </PIN>
-  <PIN pinname="Layer Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="775" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
   <BOUNDS type="Node" left="7605" top="16425" width="100" height="100">
   </BOUNDS>
@@ -672,50 +648,56 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="781" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8055" top="17430" width="100" height="100">
+  <NODE id="788" nodename="Group (Canvas VVVVjs)" systemname="Group (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5940" top="24060" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layer 1" visible="1">
   </PIN>
   <PIN pinname="Layer 2" visible="1">
   </PIN>
-  <PIN pinname="Layer Count" visible="0" values="|2|">
+  <PIN pinname="Layer 3" visible="1">
+  </PIN>
+  <PIN pinname="Layer 4" visible="1">
+  </PIN>
+  <PIN pinname="Layer Count" visible="0" values="|4|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="782" nodename="Text (Canvas VVVVjs)" systemname="Text (Canvas VVVVjs)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9090" top="16395" width="100" height="100">
+  <NODE id="790" nodename="Quad (Canvas VVVVjs)" systemname="Quad (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1380" top="21015" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Render State" visible="1">
-  </PIN>
   <PIN pinname="Transform" visible="1">
   </PIN>
   <PIN pinname="Clipping Layer" visible="1">
   </PIN>
-  <PIN pinname="Text" visible="1" values="|0|">
+  <PIN pinname="Texture" visible="1">
   </PIN>
-  <PIN pinname="Font" visible="1">
-  </PIN>
-  <PIN pinname="Align" visible="1" values="|start|">
-  </PIN>
-  <PIN pinname="Baseline" visible="1">
+  <PIN pinname="Color" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="783" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
-  <BOUNDS type="Node" left="9150" top="15540" width="100" height="100">
+  <NODE id="791" nodename="FileTexture (HTML5 VVVVjs)" systemname="FileTexture (HTML5 VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="930" top="20175" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1" values="|cielo.svg|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="792" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="660" top="19605" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="TranslateX" visible="1" values="|-0.7499999999999998|">
+  <PIN pinname="TranslateX" visible="1">
   </PIN>
-  <PIN pinname="TranslateY" visible="1" values="|0.9000000000000001|">
+  <PIN pinname="TranslateY" visible="1">
   </PIN>
-  <PIN pinname="ScaleX" visible="1" values="|0.5|">
+  <PIN pinname="ScaleX" visible="1" values="|4|">
   </PIN>
-  <PIN pinname="ScaleY" visible="1" values="|0.5|">
+  <PIN pinname="ScaleY" visible="1">
   </PIN>
   <PIN pinname="Rotate" visible="1">
   </PIN>
@@ -726,14 +708,174 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="786" nodename="platform.v4p" systemname="platform" filename="platform.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="17700" top="10515" width="100" height="100">
+  <NODE id="793" nodename="Quad (Canvas VVVVjs)" systemname="Quad (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3300" top="21390" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="px" visible="1" values="|0.6150000000000003|">
+  <PIN pinname="Transform" visible="1">
   </PIN>
-  <PIN pinname="py" visible="1" values="|0.4600000000000002|">
+  <PIN pinname="Clipping Layer" visible="1">
   </PIN>
-  <PIN pinname="width" visible="1" values="|0.25|">
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Color" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="794" nodename="FileTexture (HTML5 VVVVjs)" systemname="FileTexture (HTML5 VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2850" top="20550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1" values="|montanas.svg|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="795" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2580" top="19980" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="796" nodename="Quad (Canvas VVVVjs)" systemname="Quad (Canvas VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5145" top="22020" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform" visible="1">
+  </PIN>
+  <PIN pinname="Clipping Layer" visible="1">
+  </PIN>
+  <PIN pinname="Texture" visible="1">
+  </PIN>
+  <PIN pinname="Color" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="797" nodename="FileTexture (HTML5 VVVVjs)" systemname="FileTexture (HTML5 VVVVjs)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4695" top="21180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Filename" visible="1" values="|arboles.svg|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="798" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4425" top="20610" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1" values="|4|">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="799" nodename="Transform (Transform 2d)" systemname="Transform (Transform 2d)" componentmode="Hidden">
+  <BOUNDS type="Node" left="1635" top="16815" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Transform In" visible="1">
+  </PIN>
+  <PIN pinname="TranslateX" visible="1">
+  </PIN>
+  <PIN pinname="TranslateY" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="ScaleX" visible="1">
+  </PIN>
+  <PIN pinname="ScaleY" visible="1">
+  </PIN>
+  <PIN pinname="Rotate" visible="1">
+  </PIN>
+  <PIN pinname="CenterX" visible="1">
+  </PIN>
+  <PIN pinname="CenterY" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="800" nodename="R (Value)" systemname="R (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2850" top="17625" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Name" visible="1" values="|hx|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="807" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4455" top="19695" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="808" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2835" top="18960" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0.25|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="809" nodename="Map (Value)" systemname="Map (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="990" top="18900" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Source Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Source Maximum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Minimum" visible="1">
+  </PIN>
+  <PIN pinname="Destination Maximum" visible="1" values="|0.1|">
+  </PIN>
+  <PIN pinname="Mapping" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -759,8 +901,6 @@
   <LINK srcnodeid="714" srcpinname="Output" dstnodeid="715" dstpinname="Backbuffer Height">
   </LINK>
   <LINK srcnodeid="716" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 1">
-  </LINK>
-  <LINK srcnodeid="717" srcpinname="Layer" dstnodeid="715" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="718" srcpinname="Transform Out" dstnodeid="716" dstpinname="Transform">
   </LINK>
@@ -844,24 +984,48 @@
   </LINK>
   <LINK srcnodeid="733" srcpinname="Output" dstnodeid="769" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="771" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 2">
-  </LINK>
-  <LINK srcnodeid="774" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 2">
-  </LINK>
   <LINK srcnodeid="778" srcpinname="Transform Out" dstnodeid="775" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="775" srcpinname="Layer" dstnodeid="781" dstpinname="Layer 1">
+  <LINK srcnodeid="775" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 2">
   </LINK>
-  <LINK srcnodeid="781" srcpinname="Layer" dstnodeid="717" dstpinname="Layer 3">
+  <LINK srcnodeid="788" srcpinname="Layer" dstnodeid="715" dstpinname="Layers">
   </LINK>
-  <LINK srcnodeid="782" srcpinname="Layer" dstnodeid="781" dstpinname="Layer 2">
+  <LINK srcnodeid="790" srcpinname="Layer" dstnodeid="788" dstpinname="Layer 1">
   </LINK>
-  <LINK srcnodeid="783" srcpinname="Transform Out" dstnodeid="782" dstpinname="Transform">
+  <LINK srcnodeid="791" srcpinname="Texture Out" dstnodeid="790" dstpinname="Texture">
   </LINK>
-  <LINK srcnodeid="786" srcpinname="Layer" dstnodeid="774" dstpinname="Layer 1">
+  <LINK srcnodeid="792" srcpinname="Transform Out" dstnodeid="790" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="786" srcpinname="min" dstnodeid="733" dstpinname="Destination Minimum">
+  <LINK srcnodeid="795" srcpinname="Transform Out" dstnodeid="793" dstpinname="Transform">
   </LINK>
-  <LINK srcnodeid="786" srcpinname="max" dstnodeid="733" dstpinname="Destination Maximum">
+  <LINK srcnodeid="794" srcpinname="Texture Out" dstnodeid="793" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="717" srcpinname="Layer" dstnodeid="788" dstpinname="Layer 4">
+  </LINK>
+  <LINK srcnodeid="793" srcpinname="Layer" dstnodeid="788" dstpinname="Layer 2">
+  </LINK>
+  <LINK srcnodeid="798" srcpinname="Transform Out" dstnodeid="796" dstpinname="Transform">
+  </LINK>
+  <LINK srcnodeid="797" srcpinname="Texture Out" dstnodeid="796" dstpinname="Texture">
+  </LINK>
+  <LINK srcnodeid="796" srcpinname="Layer" dstnodeid="788" dstpinname="Layer 3">
+  </LINK>
+  <LINK srcnodeid="799" srcpinname="Transform Out" dstnodeid="792" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="799" srcpinname="Transform Out" dstnodeid="795" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="799" srcpinname="Transform Out" dstnodeid="798" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="807" srcpinname="Output" dstnodeid="798" dstpinname="TranslateX">
+  </LINK>
+  <LINK srcnodeid="800" srcpinname="Output" dstnodeid="807" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="800" srcpinname="Output" dstnodeid="808" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="808" srcpinname="Output" dstnodeid="795" dstpinname="TranslateX">
+  </LINK>
+  <LINK srcnodeid="800" srcpinname="Output" dstnodeid="809" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="809" srcpinname="Output" dstnodeid="792" dstpinname="TranslateX">
   </LINK>
   </PATCH>
